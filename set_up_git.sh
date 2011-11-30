@@ -4,7 +4,6 @@
 STEPS=7
 I=1
 
-# passphrase is Turing1954
 echo "[$I/$STEPS] Generate rsa key."; ((I++))
 ssh-keygen -t rsa -C "adam.cornish@unmc.edu"
 echo "\tid_rsa.pub is:"
