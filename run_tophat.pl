@@ -1,33 +1,6 @@
 #!/usr/bin/perl -w
 use strict;
 
-my @pair1 = ( 
-RK-1_TGACCA_L002_R1.fastq
-RK-1_TGACCA_L002_R2.fastq
-RK-2_TGACCA_L003_R1.fastq
-RK-2_TGACCA_L003_R2.fastq
-Smith-1_GCCAAT_L002_R1.fastq
-Smith-1_GCCAAT_L002_R2.fastq
-Smith-2_GCCAAT_L003_R1.fastq
-Smith-2_GCCAAT_L003_R2.fastq
-88-9378_NoIndex_L006_R1.fastq
-88-9378_NoIndex_L006_R2.fastq
-89-1182_NoIndex_L007_R1.fastq
-89-1182_NoIndex_L007_R2.fastq
-91-1186_NoIndex_L008_R1.fastq
-91-1186_NoIndex_L008_R2.fastq
-Liver-2_ACAGTG_L005_R1.fastq
-Liver-2_ACAGTG_L005_R2.fastq
-            );
-
-my @pair2 = ( 
-            );
-
-my @single = ( 
-              "core/110531/Lab_Ctrl_1.fastq.pass_filter",
-              "core/110531/Lab_Ctrl_2.fastq.pass_filter" 
-            );
-
 my $dir       = "/safer/ngs0_data/data/finished";
 my $mm9_gtf   = "/safer/genomes/Mus_musculus/UCSC/mm9/Annotation/Genes/genes.gtf";
 my $mm9_idx   = "/safer/genomes/Mus_musculus/UCSC/mm9/Sequence/BowtieIndex/genome";
